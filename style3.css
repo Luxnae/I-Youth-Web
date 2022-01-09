@@ -28,7 +28,7 @@
 
 .main p{
     position: relative;
-    top: 15px;
+    top: 5px;
     text-align: center;
     font-size: 20px;
     color: white;   
@@ -47,7 +47,7 @@
 
 .main .continue p{
     position: relative;
-    top: 85px;
+    top: 60px;
     text-align: center;
     font-size: 36px;
     color: white;   
@@ -63,15 +63,17 @@
     }
 
     .main p{
-        font-size: 24px;
+        top: 5px;
+        font-size: 28px;
     }
 
     .main .image img{
+        top: 15px;
         max-width: 55%;
     }
 
     .main .continue p{
-        font-size: 32px;
+        font-size: 36px;
     }
 
 }

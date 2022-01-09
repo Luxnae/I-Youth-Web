@@ -21,7 +21,7 @@
     position: relative;
     top: 200px;
     text-align: center;
-    font-size: 32px;
+    font-size: 21px;
     color: white;   
     padding: 0px 30px 0px;
 }
@@ -40,12 +40,12 @@
 @media only screen and (min-width:768px) {
     
     .main p{
-        top: 300px;
+        top: 350px;
         font-size: 32px;
     }
     
     .main .continue p{
-        top: 350px;
+        top: 375px;
         font-size: 36px;
         float: right;
     }

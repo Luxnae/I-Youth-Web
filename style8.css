@@ -19,7 +19,7 @@
 
 .main .Game_Over h1{
     position: relative;
-    top: 250px;
+    top: 180px;
     text-align: center;
     font-size: 64px;
     color: white;   
@@ -28,7 +28,7 @@
 
 .main .continue p{
     position: relative;
-    top: 250px;
+    top: 200px;
     text-align: center;
     font-size: 32px;
     color: white;   
@@ -39,12 +39,12 @@
 @media only screen and (min-width:768px) {
 
     .main .Game_Over h1{
-        top: 250px;
+        top: 325px;
         font-size: 72px;
     }
     
     .main .continue p{
-        top: 275px;
+        top: 350px;
         font-size: 32px;
     }
     

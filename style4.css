@@ -16,8 +16,8 @@
 .main h1{  
     position: relative;
     text-align: center;
-    top: 10px;
-    font-size: 36px;
+    top: 5px;
+    font-size: 32px;
     color: white;
     
 }
@@ -28,9 +28,9 @@
 
 .main p{
     position: relative;
-    top: 15px;
+    top: 5px;
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
     color: white;   
     padding: 0px 30px 0px;
 }
@@ -47,7 +47,7 @@
 
 .main .continue p{
     position: relative;
-    top: 70px;
+    top: 30px;
     text-align: center;
     font-size: 36px;
     color: white;   
@@ -64,11 +64,13 @@
     }
     
     .main p{
-        font-size: 20px;
+        top: 5px;
+        font-size: 24px;
     }
     
-    .main .image img{   
-        max-width: 25%;
+    .main .image img{ 
+        top: 15px;  
+        max-width: 30%;
     }
     
     .main .continue p{

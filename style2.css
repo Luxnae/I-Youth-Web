@@ -18,7 +18,7 @@
 
 .main p{
     position: relative;
-    top: 325px;
+    top: 200px;
     text-align: center;
     font-size: 24px;
     color: white;
@@ -27,7 +27,7 @@
 
 .main .part_2 p{
     position: relative;
-    top: 325px;
+    top: 200px;
     text-align: center;
     font-size: 24px;
     color: white;
@@ -35,7 +35,7 @@
 
 .main .continue p{
     position: relative;
-    top: 400px;
+    top: 275px;
     text-align: center;
     font-size: 32px;
     color: white;
@@ -45,14 +45,17 @@
 @media only screen and (min-width:768px){
     
     .main p{
+        top: 400px;
         font-size: 32px;
     }
 
     .main .part_2 p{
+        top: 400px;
         font-size: 32px;
     }
 
     .main .continue p{
+        top: 475px;
         font-size: 36px;
     }
 }

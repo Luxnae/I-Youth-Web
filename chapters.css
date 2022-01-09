@@ -19,7 +19,7 @@
 
 .main .Game_Over h1{
     position: relative;
-    top: 325px;
+    top: 275px;
     text-align: center;
     font-size: 48px;
     color: white;   
@@ -28,7 +28,7 @@
 
 .main .chapter a{
     position: relative;
-    top: 340px;
+    top: 300px;
     text-align: center;
     font-size: 32px;
     color: white;   
@@ -40,7 +40,7 @@
 
 .main .back a{
     position: relative;
-    top: 500px;
+    top: 350px;
     text-align: center;
     font-size: 36px;
     color: white;   
@@ -52,14 +52,17 @@
 @media only screen and (min-width:768px) {
 
     .main .Game_Over h1{
+        top: 400px;
         font-size: 64px;
     }
     
     .main .chapter a{
+        top: 420px;
         font-size: 36px;
     }
     
     .main .back a{
+        top: 470px;
         font-size: 36px;
     }
 }
