@@ -18,26 +18,26 @@
 
 .main p{
     position: relative;
-    top: 110px;
+    top: 325px;
     text-align: center;
-    font-size: 21px;
+    font-size: 24px;
     color: white;
-    padding: 0px 20px 0px;
+    padding: 0px 30px 0px;
 }
 
 .main .part_2 p{
     position: relative;
-    top: 115px;
+    top: 325px;
     text-align: center;
-    font-size: 21px;
+    font-size: 24px;
     color: white;
 }
 
 .main .continue p{
     position: relative;
-    top: 200px;
+    top: 400px;
     text-align: center;
-    font-size: 24px;
+    font-size: 32px;
     color: white;
     font-weight: 700;
 }
@@ -45,17 +45,14 @@
 @media only screen and (min-width:768px){
     
     .main p{
-        top: 100px;
         font-size: 32px;
     }
 
     .main .part_2 p{
-        top: 105px;
         font-size: 32px;
     }
 
     .main .continue p{
-        top: 150px;
         font-size: 36px;
     }
 }
@@ -63,18 +60,15 @@
 @media only screen and (min-width:1000px) {
 
     .main p{
-        top: 50px;
-        font-size: 32px;
+        font-size: 36px;
         padding: 0px 200px 0px;
     }
 
     .main .part_2 p{
-        top: 50px;
-        font-size: 32px;
+        font-size: 36px;
     }
 
     .main .continue p{
-        top: 75px;
         font-size: 48px;
     }
 }

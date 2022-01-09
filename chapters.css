@@ -19,18 +19,18 @@
 
 .main .Game_Over h1{
     position: relative;
-    top: 100px;
+    top: 325px;
     text-align: center;
-    font-size: 36px;
+    font-size: 48px;
     color: white;   
     padding: 0px 30px 0px;
 }
 
 .main .chapter a{
     position: relative;
-    top: 115px;
+    top: 340px;
     text-align: center;
-    font-size: 24px;
+    font-size: 32px;
     color: white;   
     padding: 7px 10px 0px 10px;
     text-decoration: none;
@@ -40,9 +40,9 @@
 
 .main .back a{
     position: relative;
-    top: 175px;
+    top: 500px;
     text-align: center;
-    font-size: 30px;
+    font-size: 36px;
     color: white;   
     padding: 7px 0px 0px;
     text-decoration: none;
@@ -52,36 +52,30 @@
 @media only screen and (min-width:768px) {
 
     .main .Game_Over h1{
-        top: 50px;
-        font-size: 80px;
+        font-size: 64px;
     }
     
     .main .chapter a{
-        top: 60px;
         font-size: 36px;
     }
     
     .main .back a{
-        top: 100px;
-        font-size: 32px;
+        font-size: 36px;
     }
 }
 
 @media only screen and (min-width:1000px) {
 
     .main .Game_Over h1{
-        top: 125px;
-        font-size: 80px;
+        font-size: 82px;
     }
     
     .main .chapter a{
-        top: 125px;
-        font-size: 32px;
+        font-size: 36px;
     }
     
     .main .back a{
-        top: 200px;
-        font-size: 42px;
+        font-size: 36px;
         margin: 0;
     }
 }

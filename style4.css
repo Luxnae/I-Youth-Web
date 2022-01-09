@@ -17,7 +17,7 @@
     position: relative;
     text-align: center;
     top: 10px;
-    font-size: 22px;
+    font-size: 36px;
     color: white;
     
 }
@@ -28,28 +28,28 @@
 
 .main p{
     position: relative;
-    top: 5px;
+    top: 15px;
     text-align: center;
-    font-size: 12px;
+    font-size: 18px;
     color: white;   
     padding: 0px 30px 0px;
 }
 
-.main img{   
-    position: relative;
+.main .image img{   
     top: 15px;
+    position: relative;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    max-width: 22%;
+    max-width: 32%;
     height: auto;
 }
 
 .main .continue p{
     position: relative;
-    top: 20px;
+    top: 70px;
     text-align: center;
-    font-size: 24px;
+    font-size: 36px;
     color: white;   
     padding: 0px 30px 0px;
     text-decoration: none;
@@ -64,16 +64,16 @@
     }
     
     .main p{
-        font-size: 14px;
+        font-size: 20px;
     }
     
-    .main img{   
-        max-width: 15%;
+    .main .image img{   
+        max-width: 25%;
     }
     
     .main .continue p{
-        top: 15px;
-        font-size: 32px;
+        top: 50px;
+        font-size: 36px;
     }
 }
 
@@ -81,26 +81,32 @@
 
     .main h1{  
         top: 5px;
-        font-size: 32px;
+        font-size: 62px;
     }
     
     .main p{
+        position: absolute;
+        top: 300px;
+        right: 250px;
         float: right;
-        left: 0px;
-        font-size: 26px;
-        padding: 0px 200px 0px 150px;
+        font-size: 36px;
+        padding: 10px 10px 10px 10px;
     }
     
-    .main img{  
-        left: 0px;
-        float: left; 
-        max-width: 24%;
+    .main .image img{  
+        position: absolute;
+        top: 50px;
+        left: 100px;
+        float: left;
+        width: 17%;
     }
     
     .main .continue p{
+        position: absolute;
+        top: 850px;
+        font-size: 36px;
         float: right;
-        top: 0px;
-        font-size: 32px;
+        right: 0px;
     }
 }
 

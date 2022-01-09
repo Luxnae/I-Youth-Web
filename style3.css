@@ -16,8 +16,8 @@
 .main h1{  
     position: relative;
     text-align: center;
-    top: 1px;
-    font-size: 24px;
+    top: 5px;
+    font-size: 32px;
     color: white;
     
 }
@@ -28,28 +28,28 @@
 
 .main p{
     position: relative;
-    top: 5px;
+    top: 15px;
     text-align: center;
-    font-size: 14px;
+    font-size: 20px;
     color: white;   
     padding: 0px 30px 0px;
 }
 
-.main img{   
+.main .image img{   
     position: relative;
-    top: 5px;
+    top: 15px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    max-width: 50%;
+    max-width: 55%;
     height: auto;
 }
 
 .main .continue p{
     position: relative;
-    top: 20px;
+    top: 85px;
     text-align: center;
-    font-size: 28px;
+    font-size: 36px;
     color: white;   
     padding: 0px 30px 0px;
     text-decoration: none;
@@ -59,20 +59,19 @@
 @media only screen and (min-width:768px){
     
     .main h1{  
-        font-size: 32px;
+        font-size: 48px;
     }
 
     .main p{
-        top: 1px;
-        font-size: 14px;
+        font-size: 24px;
     }
 
-    .main img{
-        max-width: 35%;
+    .main .image img{
+        max-width: 55%;
     }
 
     .main .continue p{
-        font-size: 28px;
+        font-size: 32px;
     }
 
 }
@@ -81,22 +80,26 @@
 
     .main h1{  
         top: 5px;
-        font-size: 84px;
+        font-size: 72px;
     }
 
     .main p{
-        font-size: 24px;
-        padding: 0px 300px 0px 0px;
+        top: 200px;
+        left: 50px;
+        float: left;
+        font-size: 36px;
+        padding: 10px 10px 10px 10px;
     }
 
-    .main img{
-        left: 200px;
+    .main .image img{
+        top: 100px;
+        right: 20px;
         float: right;
-        max-width: 45%;
+        width: 35%;
     }
 
     .main .continue p{
-        top: 70px;
+        top: 435px;
         font-size: 42px;
         float: right;
         left: 550px

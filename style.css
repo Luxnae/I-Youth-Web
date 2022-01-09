@@ -14,9 +14,9 @@
 
 .main h1{  
     position: relative;
-    top: 215px;
+    top: 375px;
     text-align: center;
-    font-size: 28px;
+    font-size: 36px;
     color: white;
     
 }
@@ -27,15 +27,17 @@
 
 .main p{
     position: relative;
-    top: 235px;
+    top: 400px;
     text-align: center;
-    font-size: 34px;
+    font-size: 48px;
     color: white;
+    padding: 0px 30px 0px;
 }
 
 .main .small h6{
+    padding: 0px 30px 0px;
     position: relative;
-    top: 245px;
+    top: 415px;
     text-align: center;
     font-size: 22px;
     color: white;
@@ -44,17 +46,14 @@
 @media only screen and (min-width:768px){
     
     .main h1{  
-        top: 150px;
         font-size: 58px;
     }
 
     .main p{
-        top: 175px;
         font-size: 85px;
     }
     
     .main .small h6{
-        top: 185px;
         font-size: 52px;
     }
     
@@ -63,17 +62,14 @@
 @media only screen and (min-width:1000px) {
     
     .main h1{  
-        top: 175px;
         font-size: 64px;
     }
 
     .main p{
-        top: 200px;
         font-size: 105px;    
     }
     
     .main .small h6{
-        top: 200px;
         font-size: 60px;
     }
 }
