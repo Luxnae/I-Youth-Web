@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.main{
+    background-image: url("backgrounds/background (6).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    font-weight: 400;
+}
+
+.main a{
+    text-decoration: none;
+}
+
+.main .Game_Over h1{
+    position: relative;
+    top: 85px;
+    text-align: center;
+    font-size: 60px;
+    color: white;   
+    padding: 0px 30px 0px;
+}
+
+.main .continue p{
+    position: relative;
+    top: 90px;
+    text-align: center;
+    font-size: 24px;
+    color: white;   
+    padding: 7px 10px 0px;
+    text-decoration: none;
+}
+
+@media only screen and (min-width:768px) {
+
+    .main .Game_Over h1{
+        top: 50px;
+        font-size: 64px;
+    }
+    
+    .main .continue p{
+        top: 75px;
+        font-size: 32px;
+    }
+    
+}
+
+@media only screen and (min-width:1000px) {
+
+    .main .Game_Over h1{
+        top: 1px;
+        font-size: 80px;
+    }
+    
+    .main .continue p{
+        top: 1px;
+        font-size: 32px;
+    }
+}

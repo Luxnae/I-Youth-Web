@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.main{
+    height: 100vh;
+    font-weight: 400;
+}
+
+.main a{
+    text-decoration: none;
+}
+
+.main img{
+    width: 100%;
+}
+
+.back a{
+    position: absolute;
+    text-align: center;
+    font-size: 24px;
+    color: #fff;   
+    padding: 7px 0px 0px;
+    text-decoration: none;
+    left: 10px;
+}
+
+@media only screen and (min-width:768px) {
+
+    .main{ 
+        background-image: url("backgrounds/watch\ our\ stream!.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .main img{
+        display: none;
+    }
+    
+}

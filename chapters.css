@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.main{
+    background-image: url("backgrounds/background (6).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    font-weight: 400;
+}
+
+.main a{
+    text-decoration: none;
+}
+
+.main .Game_Over h1{
+    position: relative;
+    top: 100px;
+    text-align: center;
+    font-size: 36px;
+    color: white;   
+    padding: 0px 30px 0px;
+}
+
+.main .chapter a{
+    position: relative;
+    top: 115px;
+    text-align: center;
+    font-size: 24px;
+    color: white;   
+    padding: 7px 10px 0px 10px;
+    text-decoration: none;
+    display: block;
+    border-radius: 0px;
+}
+
+.main .back a{
+    position: relative;
+    top: 175px;
+    text-align: center;
+    font-size: 30px;
+    color: white;   
+    padding: 7px 0px 0px;
+    text-decoration: none;
+    display: block;
+}
+
+@media only screen and (min-width:768px) {
+
+    .main .Game_Over h1{
+        top: 50px;
+        font-size: 80px;
+    }
+    
+    .main .chapter a{
+        top: 60px;
+        font-size: 36px;
+    }
+    
+    .main .back a{
+        top: 100px;
+        font-size: 32px;
+    }
+}
+
+@media only screen and (min-width:1000px) {
+
+    .main .Game_Over h1{
+        top: 125px;
+        font-size: 80px;
+    }
+    
+    .main .chapter a{
+        top: 125px;
+        font-size: 32px;
+    }
+    
+    .main .back a{
+        top: 200px;
+        font-size: 42px;
+        margin: 0;
+    }
+}

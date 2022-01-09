@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    background-image: url("backgrounds/background 5.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    font-weight: 400;
+}
+
+.main h1{  
+    position: relative;
+    top: 215px;
+    text-align: center;
+    font-size: 28px;
+    color: white;
+    
+}
+
+.main a{
+    text-decoration: none;
+}
+
+.main p{
+    position: relative;
+    top: 235px;
+    text-align: center;
+    font-size: 34px;
+    color: white;
+}
+
+.main .small h6{
+    position: relative;
+    top: 245px;
+    text-align: center;
+    font-size: 22px;
+    color: white;
+}
+
+@media only screen and (min-width:768px){
+    
+    .main h1{  
+        top: 150px;
+        font-size: 58px;
+    }
+
+    .main p{
+        top: 175px;
+        font-size: 85px;
+    }
+    
+    .main .small h6{
+        top: 185px;
+        font-size: 52px;
+    }
+    
+}
+
+@media only screen and (min-width:1000px) {
+    
+    .main h1{  
+        top: 175px;
+        font-size: 64px;
+    }
+
+    .main p{
+        top: 200px;
+        font-size: 105px;    
+    }
+    
+    .main .small h6{
+        top: 200px;
+        font-size: 60px;
+    }
+}
