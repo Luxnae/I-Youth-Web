@@ -63,7 +63,7 @@
     }
 
     .main p{
-        top: 5px;
+        top: 1px;
         font-size: 28px;
     }
 
@@ -82,28 +82,28 @@
 
     .main h1{  
         top: 5px;
-        font-size: 72px;
+        font-size: 64px;
     }
 
     .main p{
-        top: 200px;
-        left: 50px;
+        top: 100px;
+        left: 45px;
         float: left;
-        font-size: 36px;
-        padding: 10px 10px 10px 10px;
+        font-size: 24px;
+        padding: 10px 30px 30px 10px;
     }
 
     .main .image img{
-        top: 100px;
+        top: 60px;
         right: 20px;
         float: right;
-        width: 35%;
+        width: 30%;
     }
 
     .main .continue p{
-        top: 435px;
+        top: 220px;
         font-size: 42px;
         float: right;
-        left: 550px
+        left: 400px
     }
 }

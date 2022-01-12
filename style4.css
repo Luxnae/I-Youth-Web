@@ -83,15 +83,15 @@
 
     .main h1{  
         top: 5px;
-        font-size: 62px;
+        font-size: 64px;
     }
     
     .main p{
         position: absolute;
-        top: 300px;
-        right: 250px;
+        top: 100px;
+        right: 150px;
         float: right;
-        font-size: 36px;
+        font-size: 28px;
         padding: 10px 10px 10px 10px;
     }
     
@@ -100,12 +100,12 @@
         top: 50px;
         left: 100px;
         float: left;
-        width: 17%;
+        width: 15%;
     }
     
     .main .continue p{
         position: absolute;
-        top: 850px;
+        top: 575px;
         font-size: 36px;
         float: right;
         right: 0px;

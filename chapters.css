@@ -70,14 +70,17 @@
 @media only screen and (min-width:1000px) {
 
     .main .Game_Over h1{
+        top: 200px;
         font-size: 82px;
     }
     
     .main .chapter a{
+        top: 215px;
         font-size: 36px;
     }
     
     .main .back a{
+        top: 245px;
         font-size: 36px;
         margin: 0;
     }

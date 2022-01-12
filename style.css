@@ -64,15 +64,18 @@
 
 @media only screen and (min-width:1000px) {
     
-    .main h1{  
+    .main h1{
+        top: 250px;
         font-size: 64px;
     }
 
     .main p{
+        top: 275px;
         font-size: 105px;    
     }
     
     .main .small h6{
+        top: 300px;
         font-size: 60px;
     }
 }
